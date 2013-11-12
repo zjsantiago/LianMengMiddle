@@ -1,0 +1,123 @@
+body {
+		width: 990px;
+		height: 601px;
+	}
+	/*中间页样式*/
+	#middle-sect {
+		border: 1px solid #f0f0f0;
+		position: relative;
+		width: 988px;
+	}
+	.focus {
+		position: relative;
+		width: 988px;
+		height: 294px;
+		border-bottom: 1px solid #f0f0f0;
+	}
+	.photos {
+		width: 988px;
+		height: 294px;
+		position: absolute;
+	}
+	.photos div div {
+		border-top: 2px solid #fff;
+		border-left: 2px solid #fff;
+	}
+	.photos div a:hover img {
+		opacity: .8;
+	}
+	.col_a, .col_b {
+		position: absolute;
+		overflow: hidden;
+		background: #fff;
+	}
+	.col_a {
+		left: 0;
+		width: 502px
+	}
+	.col_b {
+		right: 0;
+		width: 486px;
+	}
+	.photo_1 {
+		height: 290px;
+		width: 500px;
+	}
+	.photo_1 img {
+		width: 500px;
+		height: 290px;
+	}
+	.photo_2, .photo_3, .photo_4, .photo_5{
+		float: left;
+		height: 144px;
+		width: 240px;
+	}
+	.col_b img {
+		width: 240px;
+		height: 144px;
+	}
+
+	/*软件列表样式*/
+	.soft-list {
+		padding: 25px 4px 11px 4px;
+	}
+	.softs {
+		height: 268px;
+		overflow: hidden;
+	}
+	.softs ul {
+		height: 268px;
+		overflow: hidden;
+		padding: 0;
+	}
+	.softs li {
+		display: inline;
+		float: left;
+		height: 134px;
+		position: relative;
+		text-align: center;
+		width: 98px;
+		list-style: none;
+	}
+	.softs li .pic {
+		background: url(images/soft-bg.png) no-repeat;
+		cursor: pointer;
+		display: block;
+		height: 72px;
+		margin: 0 auto 4px;
+		padding: 0 1px 3px;
+		position: relative;
+		text-align: center;
+		width: 72px;
+	}
+	.softs li .pic img {
+		border-radius: 9px;
+		height: 72px;
+		vertical-align: bottom;
+		width: 72px;
+	}
+	.softs li h4 {
+		font-weight: 400;
+		height: 18px;
+		margin-bottom: 2px;
+		width: 100%;
+		white-space:nowrap;
+        overflow : hidden;
+        text-overflow : ellipsis;
+
+	}
+	.softs li h4 a {
+		color: #5c6477;
+	}
+
+	.setup {
+		visibility: visible;
+	}
+	.softs li:hover .bt-install {
+    background-position: -42px -907px;
+    color: #fff;
+}
+	.softs li .bt-install:hover {
+    background-position: -84px -907px;
+    color: #fff;
+}
